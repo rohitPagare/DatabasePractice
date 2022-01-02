@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.btnPreference:startActivity(new Intent(MainActivity.this,SharedPreferenceActivity.class));
                 break;
-            case R.id.btnInternal:
+            case R.id.btnInternal:startActivity(new Intent(MainActivity.this,InternalStorageActivity.class));
                 break;
             case R.id.btnExternal:
                 break;
